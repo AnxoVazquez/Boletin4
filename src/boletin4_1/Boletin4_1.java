@@ -16,11 +16,14 @@ public class Boletin4_1 {
      */
     public static void main(String[] args) {
         Coche primercoche= new Coche();
+        primercoche.acelerar(50);
+        primercoche.frenar(10);
         Satelite primerSatelite= new Satelite(150,58954,69878);
         primerSatelite.verPosicion();
         Circulo circulo1 =  new Circulo(58);
         System.out.println(circulo1.calculaLongitud());
         System.out.println(circulo1.calcularArea());
+        
     }
     
 }
